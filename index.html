@@ -45,7 +45,7 @@
               />
             </a>
           </div>
-          <div class="d-flex justify-content-between header-left">
+          <div class="d-none d-lg-flex justify-content-between header-left">
             <nav>
               <ul class="nav justify-content-center">
                 <li class="nav-item">
@@ -71,13 +71,17 @@
               </div>
             </div>
           </div>
+
+          <div class="fs-3 p-3 d-lg-none">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
       </header>
 
       <section class="hero">
         <div class="container">
           <div class="row">
-            <div class="col-7 d-flex flex-column justify-content-center">
+            <div class="col col-lg-7 d-flex flex-column justify-content-center">
               <span class="tagline text-uppercase fw-bold mb-4">
                 Best Destinations around the world
               </span>
@@ -106,7 +110,9 @@
                 </button>
               </div>
             </div>
-            <div class="col position-relative hero-img-container">
+            <div
+              class="d-none d-lg-block col position-relative hero-img-container"
+            >
               <div class="hero-img position-absolute top-0 end-0">
                 <img
                   class="img-fluid"
@@ -216,7 +222,7 @@
             <h2 class="section__heading">Top Destinations</h2>
           </div>
           <div class="destination-list row position-relative">
-            <div class="col">
+            <div class="col-12 col-lg-4">
               <a href="#">
                 <div class="destination-item destination-item--1">
                   <div class="destination-item__info">
@@ -235,7 +241,7 @@
               </a>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-4">
               <a href="#">
                 <div class="destination-item destination-item--2">
                   <div class="destination-item__info">
@@ -254,7 +260,7 @@
               </a>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-4">
               <a href="#">
                 <div class="destination-item destination-item--3">
                   <div class="destination-item__info">
@@ -273,7 +279,9 @@
               </a>
             </div>
 
-            <div class="destination-decore position-absolute top-50 start-100">
+            <div
+              class="d-none d-lg-block destination-decore position-absolute top-50 start-100"
+            >
               <img
                 src="./assets/img/DestinationDecore.png"
                 alt="Destination Decore"
@@ -360,7 +368,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col">
+            <div class="d-none d-lg-block col">
               <div class="book-image">
                 <img
                   class="img-fluid"
@@ -378,7 +386,7 @@
       <section class="section">
         <div class="container">
           <div class="row">
-            <div class="col-5">
+            <div class="col-12 col-lg-5">
               <div>
                 <span
                   class="section__subheading section__subheading--uppercase"
@@ -391,7 +399,7 @@
               </div>
             </div>
 
-            <div class="col-7 slider-container">
+            <div class="col-12 col-lg-7 slider-container">
               <div
                 id="carouselExampleControls"
                 class="carousel slide"
@@ -502,7 +510,9 @@
 
       <section>
         <div class="container">
-          <div class="d-flex align-items-center justify-content-between">
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-between"
+          >
             <a href="#">
               <img src="./assets/img/logo1.png" alt="Logo1" />
             </a>
@@ -565,7 +575,7 @@
               </form>
             </div>
 
-            <div class="subcribe__icon">
+            <div class="d-none d-lg-block subcribe__icon">
               <object
                 type="image/svg+xml"
                 data="./assets/img/SubcibeIcon.svg"
@@ -591,7 +601,7 @@
             </div>
 
             <div
-              class="subcribe__decore subcribe__decore--3 position-absolute bottom-0 end-0"
+              class="d-none d-lg-block subcribe__decore subcribe__decore--3 position-absolute bottom-0 end-0"
             >
               <img
                 src="./assets/img/SubcribeDecore3.png"
@@ -602,10 +612,10 @@
         </div>
       </section>
 
-      <footer class="footer">
+      <footer class="footer text-center text-lg-start">
         <div class="container">
           <div class="row">
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
               <div class="footer__logo">
                 <img src="./assets/img/footer-logo.png" alt="Footer Logo" />
               </div>
@@ -613,7 +623,7 @@
                 Book your trip in minute, get full Control for much longer.
               </p>
             </div>
-            <div class="col-2">
+            <div class="col-12 col-lg-2">
               <strong class="footer__heading">Company</strong>
               <nav class="footer__nav nav flex-column">
                 <a class="nav-link" href="#">Abouts</a>
@@ -622,7 +632,7 @@
               </nav>
             </div>
 
-            <div class="col-2">
+            <div class="col-12 col-lg-2">
               <strong class="footer__heading">Contact</strong>
               <nav class="footer__nav nav flex-column">
                 <a class="nav-link" href="#">Help/FAQ</a>
@@ -631,7 +641,7 @@
               </nav>
             </div>
 
-            <div class="col-2">
+            <div class="col-12 col-lg-2">
               <strong class="footer__heading">More</strong>
               <nav class="footer__nav nav flex-column">
                 <a class="nav-link" href="#">Airlinefees</a>
@@ -640,8 +650,10 @@
               </nav>
             </div>
 
-            <div class="col-3">
-              <div class="footer__social d-flex">
+            <div class="col-12 col-lg-3">
+              <div
+                class="footer__social d-flex justify-content-center justify-content-lg-start"
+              >
                 <a
                   class="footer__social-item d-flex align-items-center justify-content-center rounded-circle"
                   href="#"
@@ -664,7 +676,9 @@
                 </a>
               </div>
               <span class="d-block footer__discover">Discover our app</span>
-              <div class="d-flex mt-3 gap-2">
+              <div
+                class="d-flex mt-3 gap-2 justify-content-center justify-content-lg-start"
+              >
                 <a href="#">
                   <img src="./assets/img/Google Play.png" alt="Google Play" />
                 </a>
