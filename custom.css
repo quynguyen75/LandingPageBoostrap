@@ -21,12 +21,11 @@ a {
 }
 
 .container {
-  padding: 0;
+  padding: 0 1rem;
 }
 
 .bg {
   background: url(./assets/img/Decore.png) no-repeat;
-  min-height: 100vh;
 }
 
 #logo {
@@ -128,7 +127,6 @@ a {
 
 .section__heading {
   font-family: "Volkhov", serif;
-  font-weight: bold;
   font-size: 50px;
   line-height: 1.29;
 }
@@ -163,9 +161,6 @@ a {
 }
 
 .category-item__img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 150px;
 }
 
@@ -183,9 +178,6 @@ a {
 }
 
 .category-item__decore {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   transform: translate(-50%, 50%);
   z-index: -1;
 
