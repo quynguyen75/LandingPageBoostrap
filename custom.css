@@ -484,6 +484,16 @@ a {
   margin-top: 86px;
 }
 
+/* Mobile Nav */
+.offcanvas-body .nav-item + .nav-item {
+  margin: 0;
+}
+
+.offcanvas-body .nav-item {
+  color: var(--color-text);
+  font-weight: 500;
+}
+
 /* Responsive */
 
 @media (min-width: 992px) {

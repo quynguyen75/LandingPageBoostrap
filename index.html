@@ -72,8 +72,51 @@
             </div>
           </div>
 
-          <div class="fs-3 p-3 d-lg-none">
+          <!-- Nav Mobile -->
+          <div
+            class="fs-3 p-3 d-lg-none"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
             <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <!-- Offcanvas -->
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+            data-bs-target="#offcanvasWithBackdrop"
+            aria-controls="offcanvasWithBackdrop"
+          >
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel"></h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Destination</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hotels</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Flights</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bookings</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </header>
