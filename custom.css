@@ -30,6 +30,7 @@ a {
 
 .bg {
   background: url(./assets/img/Decore.png) no-repeat;
+  background-size: cover;
 }
 
 #logo {
