@@ -10,6 +10,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  padding-right: 0 !important;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -91,8 +95,11 @@ a {
 }
 
 .hero-img {
-  height: 764px;
-  width: 765px;
+  width: 600px;
+}
+
+.hero-img img {
+  object-fit: cover;
 }
 
 .cta-find-btn {
@@ -511,5 +518,11 @@ a {
 
   .subcribe__form {
     width: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-img {
+    width: 765px;
   }
 }
